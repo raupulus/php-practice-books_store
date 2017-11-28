@@ -6,8 +6,14 @@
  */
 ?>
 
-<header>
-    <h1>Tienda de libros</h1>
+<header class="page-header">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-10">
+                <h1 class="muted">Tienda de libros</h1>
+            </div>
+        </div>
+    </div>
 </header>
 
 <div class="container">
