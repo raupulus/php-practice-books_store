@@ -9,7 +9,7 @@
 <header class="page-header">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-10">
+            <div class="col-md-8 col-md-offset-2">
                 <h1 class="muted">Tienda de libros</h1>
             </div>
         </div>
