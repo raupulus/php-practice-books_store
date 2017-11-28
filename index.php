@@ -5,6 +5,8 @@
         <title>Librería</title>
     </head>
     <body>
+        <?php require 'header.php' ?>
 
+        <?php require 'footer.php' ?>
     </body>
 </html>
