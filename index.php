@@ -8,14 +8,11 @@
 ?>
 <html lang="es">
     <?php require 'head.php' ?>
-
     <body>
         <?php require 'header.php' ?>
-
         <div id="boxContent">
 
         </div>
-
         <?php require 'footer.php' ?>
     </body>
 </html>

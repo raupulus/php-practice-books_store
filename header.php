@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <?php
 /**
  * @author Raúl Caro Pastorino
