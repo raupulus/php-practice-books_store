@@ -10,7 +10,7 @@
     <?php require 'head.php' ?>
     <body>
         <?php require 'header.php' ?>
-        <div id="boxContent">
+        <div id="boxContent" class="content">
 
         </div>
         <?php require 'footer.php' ?>
