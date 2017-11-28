@@ -6,3 +6,10 @@
  * @license https://www.gnu.org/licenses/gpl-3.0-standalone.html
  */
 ?>
+
+<footer>
+    copyright
+    <address>
+        Dirección
+    </address>
+</footer>
