@@ -9,9 +9,25 @@
 <html lang="es">
     <?php require 'head.php' ?>
     <body>
-        <?php require 'header.php' ?>
+        <?php require 'header.php' ?> <!--Títulos y menús del sitio-->
+        <?php require 'auxiliar.php' ?>
         <div id="boxContent" class="content container">
             <div class="col-md-10 col-md-offset-1">
+                <?php
+                $pdo = conectar();
+                $sent = $pdo->prepare("SELECT peliculas.id,
+                                              titulo,
+                                              anyo,
+                                              left(sinopsis, 40) AS sinopsis,
+                                              duracion,
+                                              genero_id,
+                                              genero
+                                         FROM peliculas
+                                         JOIN generos ON genero_id = generos.id
+                                        WHERE lower(titulo) LIKE lower('%' || :titulo || '%')");
+                $sent->execute([':titulo' => $titulo]);
+                ?>
+
                 <table class="table table-striped table-bordered">
                     <tr>
                         <th>Nombre</th>
